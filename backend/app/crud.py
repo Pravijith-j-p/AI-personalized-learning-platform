@@ -3,7 +3,8 @@ from . import models
 from .schemas import UserCreate
 from passlib.context import CryptContext
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+# Switch to argon2 (more secure, no 72-char limit)
+pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
 def get_password_hash(password: str) -> str:
     return pwd_context.hash(password)
