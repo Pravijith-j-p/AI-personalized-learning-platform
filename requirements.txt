@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+psycopg2-binary
+alembic
+redis
+pandas
+scikit-learn
+numpy
+python-dotenv

@@ -12,7 +12,7 @@
 ## 🚀 Overview
 The **AI-Powered Personalized Learning Platform** is a full-stack web application that delivers **personalized learning content** to users based on their progress, preferences, and performance. It leverages **machine learning models** for content recommendation, **adaptive learning algorithms** for difficulty adjustment, and **analytics dashboards** to track learning progress.
 
-This project demonstrates **end-to-end system design**, combining **frontend, backend, database, ML models, and cloud deployment**, making it **Google/MAANG-interview ready**.
+This project demonstrates **end-to-end system design**, combining **frontend, backend, database, ML models, and cloud deployment**
 
 ---
 
